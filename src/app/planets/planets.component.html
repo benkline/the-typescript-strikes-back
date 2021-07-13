@@ -1,0 +1,18 @@
+<h2>The planets</h2>
+<ol class=planets>
+  <li *ngFor="let planet of planets">
+    <span>{{planet.name}}</span><br>
+    <button mat-raised-button on-click="moreInfo($event)">more info</button>
+    <ul>
+      <span>orbital_period: <span>{{planet.orbital_period}}</span></span><br>
+      <span>rotation_period: <span>{{planet.rotation_period}}</span></span><br>
+      <span>orbital_period: <span>{{planet.orbital_period}}</span></span><br>
+      <span>diameter: <span>{{planet.diameter}}</span></span><br>
+      <span>climate: <span>{{planet.climate}}</span></span><br>
+      <span>gravity: <span>{{planet.gravity}}</span></span><br>
+      <span>terrain: <span>{{planet.terrain}}</span></span><br>
+      <span>surface_water: <span>{{planet.surface_water}}</span></span><br>
+      <span>population: <span>{{planet.population}}</span></span><br>
+    </ul>
+  </li>
+</ol>
