@@ -19,7 +19,7 @@ I am determined to finish this - it's not done. But so far I've spent...
 ### Challenges faced (lessons learned)
 I simply didn't know enough about Angular and how TypeScript's custom types relate to models. The less you actually know about a subject, the more you think you know about it, and conversely, the more you learn about a subject, the more you understand how little of it you actually know.
 
-When you inevitibaly encounter a problem while writing code, it's too easy to start trying everything and just seeing what sticks. This will often take you longer to get through the problem, than when you stop writing, and begin reading. Aim to actually understand the problem and write the right code, right away. 
+When you inevitably encounter a problem while writing code, it's too easy to start trying everything and just seeing what sticks. This will often take you longer to get through the problem, than when you stop writing, and begin reading. Aim to actually understand the problem and write the right code, right away. 
 
 I will be spending a lot of my evenings reading about and writing a few more Angular side projects, to better understand these issues.
 
