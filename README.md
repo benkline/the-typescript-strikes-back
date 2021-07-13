@@ -29,7 +29,7 @@ I can see how observables and using custom typed classes as models are a better 
 There is only one large component, and a lot of commented out code - this is because it is still a work in progress - this would obviously not be a PR in a production setting. 
 
 ### Future improvements
-Break the large components into much smaller components, more atomic/functional units. Tests, CSS... Get it actually working :joy: 
+Break the single large component into much smaller, more atomic or functional, components. Tests, CSS... Get it actually working :joy: 
 
 
 **This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.**
