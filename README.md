@@ -21,7 +21,7 @@ I simply didn't know enough about Angular and how TypeScript's custom types rela
 
 When you inevitibaly encounter a problem while writing code, it's too easy to start trying everything and just seeing what sticks. This will often take you longer to get through the problem, than when you stop writing, and begin reading. Aim to actually understand the problem and write the right code, right away. 
 
-I will be spending a lot of my evenings writign some Angular side projects to understand these issues more fully.
+I will be spending a lot of my evenings reading about and writing a few more Angular side projects, to better understand these issues.
 
 ### Design Decisions
 I can see how observables and using custom typed classes as models are a better design pattern. I need to spend some time understanding how to write them correctly in order to use them in my code. 
@@ -40,7 +40,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/software-wars` directory.
 
 ## Running unit tests
 
