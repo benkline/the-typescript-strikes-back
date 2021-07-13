@@ -19,7 +19,12 @@ export class ApiService {
     console.error('Some error occured', error);
     return Promise.reject(error.message || error);
   }
-  
+  // getPlanets(): any {
+  //   return this.http.get('https://swapi.dev/api/planets/')
+  // }.subscribe((data: any) => {
+  //   console.log(data)
+  // })
+}
   // .subscribe( data => { data })
     //   count: data.count,
     //   next: data.next,
@@ -75,4 +80,3 @@ export class ApiService {
     // ,"gender":"male"
     // ,"homeworld":"https://swapi.dev/api/planets/1/"
   // }]
-}

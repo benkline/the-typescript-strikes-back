@@ -1,7 +1,8 @@
 <h2>The planets</h2>
 <ol class=planets>
   <li *ngFor="let planet of planets">
-    <span>{{planet.name}}</span><br>
+    <span>{{planet.count}}</span><br>
+    <!-- <span>{{planet.name}}</span><br>
     <button mat-raised-button on-click="moreInfo($event)">more info</button>
     <ul>
       <span>orbital_period: <span>{{planet.orbital_period}}</span></span><br>
@@ -13,6 +14,6 @@
       <span>terrain: <span>{{planet.terrain}}</span></span><br>
       <span>surface_water: <span>{{planet.surface_water}}</span></span><br>
       <span>population: <span>{{planet.population}}</span></span><br>
-    </ul>
+    </ul> -->
   </li>
 </ol>
