@@ -1,36 +1,6 @@
-# Software Wars, A New App 
+# Software Wars, A Ngular Hope 
 
-The goal with this project is to develop a simple web application that leverages data from the Star Wars API. 
-
-### Requirements:
-* List all the Star Wars related planets (via GET /api/planets ) and allow users to select an individual planet to display related information about the selected planet - name diameter, climate, terrain, population, etc... 
-* Users should also see a list of people that have lived on the selected planet (via the residents results array from GET /api/planets). 
-* Users should have the ability to select an individual person from the selected planet’s list of people. When the person is selected, information about that person should be displayed (e.g. hair color, skin color, gender, etc.).  
-
-This app uses the Angular UI framework to implement the project [discuss the overall approach and how they separated out components and application logic.]
-
-### Time Spent
-I am determined to finish this - it's not done. But so far I've spent...
-
-* 30 min - Research, CLI new and add Material, write README 
-* 45 Min - MVP with Mocked Data
-* 5-6 Hours+ - Still trying to get an http.get() to the API to pass the returned JSON through a custom type/model and display on the template 
-
-### Challenges faced (lessons learned)
-I simply didn't know enough about Angular and how TypeScript's custom types relate to models. The less you actually know about a subject, the more you think you know about it, and conversely, the more you learn about a subject, the more you understand how little of it you actually know.
-
-When you inevitably encounter a problem while writing code, it's too easy to start trying everything and just seeing what sticks. This will often take you longer to get through the problem, than when you stop writing, and begin reading. Aim to actually understand the problem and write the right code, right away. 
-
-I will be spending a lot of my evenings reading about and writing a few more Angular side projects, to better understand these issues.
-
-### Design Decisions
-I can see how observables and using custom typed classes as models are a better design pattern. I need to spend some time understanding how to write them correctly in order to use them in my code. 
-
-There is only one large component, and a lot of commented out code - this is because it is still a work in progress - this would obviously not be a PR in a production setting. 
-
-### Future improvements
-Break the single large component into much smaller, more atomic or functional, components. Tests, CSS... Get it actually working :joy: 
-
+The goal with this project is a simple web application that leverages data from the Star Wars API - to showcase how to use Angular and Typescript in a few blog posts.  
 
 **This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.**
 
